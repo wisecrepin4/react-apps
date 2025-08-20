@@ -1,31 +1,85 @@
-* {
-  padding: 0px;
+body {
+  font-family: Arial, Helvetica, sans-serif;
 }
-.card {
-  margin: 10px;
-  width: 100px;
-  height: 200px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+.counter-holder {
   text-align: center;
+}
+.count {
+  font-size: 60px;
+}
+button {
+  padding: 5px;
+  margin: 5px;
+  background-color: rgba(66, 112, 205, 0.952);
+  border: none;
+  border-radius: 5px;
+  color: aliceblue;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgba(66, 112, 205, 0.896);
+}
+.color-holder {
+  width: 400px;
+  height: 300px;
+  border-radius: 10px;
+  transition: 0.25s ease;
+  display: flex;
   align-items: center;
-  border: 1px solid;
-  border-color: rgba(105, 103, 101, 0.281);
-  padding: 6px;
-  border-radius: 7px;
-  box-shadow: 5px 5px 5px rgba(113, 113, 112, 0.281);
+  justify-content: center;
 }
-.card-image {
+.Colorpicker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arila, serif;
+}
+
+.color-picker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+input[type="color"] {
+  margin-top: 10px;
+  border-radius: 5px;
+  border: none;
+}
+.add {
+  background-color: rgb(0, 148, 84);
+  padding: 10px;
+  margin: 0px;
   width: 70px;
-  height: 98px;
-  border-radius: 50%;
 }
-.card-title {
-  font-size: 10px;
-  font-weight: bold;
-  margin: 0;
+.delete {
+  background-color: rgb(155, 24, 10);
+  padding: 10px;
+  margin: 0px;
+  width: 70px;
 }
-.card-description {
-  font-size: 10px;
+ul {
+  padding: 0;
+  text-align: center;
+}
+li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #d2d2d2;
+  list-style: none;
+  text-align: center;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.toDoList {
+  text-align: center;
+}
+.text {
+  flex: 1;
+}
+.tdin {
+  padding: 10px;
+  border: 1px solid rgb(163, 163, 163);
+  border-radius: 5px;
 }

@@ -1,4 +1,4 @@
-body {
+/* /* body {
   font-family: Arial, Helvetica, sans-serif;
 }
 .counter-holder {
@@ -82,4 +82,55 @@ li {
   padding: 10px;
   border: 1px solid rgb(163, 163, 163);
   border-radius: 5px;
+} */
+/* body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0px;
+  display: flex;
+  color: aliceblue;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./assets/back-image.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.clock-container {
+  backdrop-filter: blur(10px);
+}
+.clock {
+  font-size: 5rem;
+} */
+.body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.stop-watch-holder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid rgba(83, 82, 82, 0.844);
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #9fad33;
+  color: aliceblue;
+  font-size: 2rem;
+}
+button {
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+  color: aliceblue;
+  border: none;
+}
+.start {
+  background-color: #3f9d79;
+}
+.stop {
+  background-color: #bc3232;
+}
+.reset {
+  background-color: #1958b0;
 }
